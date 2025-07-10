@@ -77,8 +77,8 @@ Hyperparameter optimization via **RandomizedSearchCV**, tuning:
 | Logistic        | 0.316 ± 0.010 | 0.768 ± 0.012 | 0.448 ± 0.011 | 0.889 ± 0.004 |
 | Decision Tree   | 0.311 ± 0.017 | 0.814 ± 0.016 | 0.450 ± 0.018 | 0.867 ± 0.008 |
 | kNN             | 0.351 ± 0.006 | 0.666 ± 0.005 | 0.460 ± 0.004 | 0.834 ± 0.005 |
-| XGBoost         | **0.403 ± 0.005** | **0.798 ± 0.015** | **0.535 ± 0.006** | **0.939 ± 0.004** |
-
+| XGBoost (*)        | **0.403 ± 0.005** | **0.798 ± 0.015** | **0.535 ± 0.006** | **0.939 ± 0.004** |
+(*) with SOME but without hyperparameters tunning via RandomizedSearchCV
 ---
 
 ## 5. Key Visualizations 📊
