@@ -85,8 +85,6 @@ Hyperparameter optimization via **RandomizedSearchCV**, tuning:
 
 - **Correlation Heatmap** – for feature exploration
 - **Confusion Matrices** – for each classifier
-- **ROC Curves** – to compare models visually
-- **Learning Curves** – to detect overfitting (especially for XGBoost)
 
 ---
 
